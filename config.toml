@@ -12,10 +12,3 @@ theme = "ga-hugo-theme"
 [frontmatter]
 home = "homepage"
 contact = "contact"
-
-[build]
-  command = "hugo"
-  publish = "public"
-
-[build.environment]
-  HUGO_VERSION = "0.41"
