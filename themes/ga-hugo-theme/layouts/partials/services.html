@@ -1,0 +1,32 @@
+<section class="therapy-services">
+    <div class="container">
+      <h3><div class="intro">
+        {{ .Page.Params.therapy_intro | markdownify }}
+      </div></h3>
+  
+      <div class="conditions">
+        <p>We specialize in addressing a range of conditions and issues, including but not limited to:</p>
+        <div class="condition-list">
+          {{ range .Page.Params.conditions }}
+          <div class="condition-item">
+            {{ .name }} <span class="plus-icon">+</span>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+  
+      <div class="therapies">
+        <h3>We incorporate a variety of evidence-based therapies to ensure our clients receive the highest quality care.</h3>
+        <div class="therapy-list">
+          {{ range .Page.Params.therapies }}
+          <div class="therapy-item">
+            {{ .name }} <span class="plus-icon">+</span>
+          </div>
+          {{ end }}
+          <div class="therapy-item and-more">
+            AND MORE <span class="plus-icon">+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

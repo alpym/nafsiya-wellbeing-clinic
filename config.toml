@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Nafsiya wellbeing Clinic'
+theme = "ga-hugo-theme"
+
+[params]
+  assets = [
+    "css/main.css"
+  ]
+
+
+[frontmatter]
+home = "homepage"
+contact = "contact"
