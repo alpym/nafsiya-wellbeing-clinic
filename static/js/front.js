@@ -1,13 +1,15 @@
 //Nav Bar menu
 
 document.addEventListener('DOMContentLoaded', function() {
-    const toggleButton = document.getElementById('navbar-toggle');
-    const navbarMenu = document.getElementById('navbar-menu');
-  
+  const toggleButton = document.getElementById('navbar-toggle');
+  const navbarMenu = document.getElementById('navbar-menu');
+
+  if (toggleButton && navbarMenu) {  // Check if elements exist
     toggleButton.addEventListener('click', function() {
       navbarMenu.style.display = navbarMenu.style.display === 'block' ? 'none' : 'block';
     });
-  });
+  }
+});
 
   // Pop-up modal JS
   document.addEventListener('DOMContentLoaded', function() {
@@ -37,3 +39,22 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   });
+
+  // back to the top button
+  document.addEventListener('DOMContentLoaded', function() {
+    var backToTopButton = document.getElementById('back-to-top');
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    };
+
+    backToTopButton.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent default anchor behavior
+        window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+    });
+});
+
