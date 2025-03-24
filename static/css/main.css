@@ -146,12 +146,32 @@ ul.list-style-none {
   margin-top: 40px;
   margin-bottom: 100px;
 }
+
+.error-button {
+  background-color: #19164b;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.error-button:hover {
+  background-color: #25c3f3;
+  color: #19164b;
+  text-decoration: none;
+
+}
+
 #error-page h4 {
   margin-bottom: 40px;
 }
 #error-page p.buttons {
   margin-top: 40px;
 }
+
 
 /* Top */
 #top {
