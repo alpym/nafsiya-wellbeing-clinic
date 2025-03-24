@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "Contact Us"
 type: contact
 meta_title: "Contact us"
 description: "Feel free to contact us with any enquiries"
