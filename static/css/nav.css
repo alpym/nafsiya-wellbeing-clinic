@@ -66,6 +66,11 @@
   background-color: #25c3f3;
 }
 
+.navbar-toggle {
+  display: none;
+}
+
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .navbar-container {

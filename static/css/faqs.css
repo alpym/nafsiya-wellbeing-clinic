@@ -10,6 +10,11 @@
     margin-bottom: 120px;
 }
 
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .faq-content h1 {
@@ -20,3 +25,21 @@
         font-size: 1.6em;
     }
 }
+
+
+/* back to top button */
+#back-to-top {
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Distance from bottom */
+    right: 20px; /* Distance from right */
+    display: none; /* Hidden by default */
+    background-color: #efe0ed; /* Light gray-blue background */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  #back-to-top a {
+    color: #282c69; /* Dark blue text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+  }
