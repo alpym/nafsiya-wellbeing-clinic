@@ -26,8 +26,11 @@ Children sessions are 30-40 minutes depending on the child’s engagement, the r
 
 ### What are the fees for each session?
 Sessions run for 50 minutes with a standard fee of;
+
 • $250 for general clients
+
 • $200 concession holders
+
 Medicare rebates can be accessed with a valid mental health care plan from your doctor or psychiatrist and in accordance with Medicare guidelines. Rebates for a clinical psychologist for 2024-2025 are at $141.85 per session.
 NDIS, VOCAT, TAC, DVA and WorkSafe clients are charged in accordance with their funding stream however we require all documentation of approval prior to the session otherwise fees will follow the standard clinic fees.  
 Fees may be modified to accommodate for any required travel costs for the practitioner. 
