@@ -8,8 +8,8 @@ draft: false
 therapy_intro: Our team is dedicated to supporting individuals through a broad spectrum of mental and physical health challenges.
 
 conditions:
-  - name: "POST TRAUMATIC STRESS DISORDER (PTSD)"
-  - name: "COMPLEX PTSD"
+  - name: "POST TRAUMATIC STRESS DISORDER (PTSD) & COMPLEX PTSD"
+  - name: "NEURODIVERGENT DISORDERS"
   - name: "ANXIETY"
   - name: "DEPRESSION & MOOD DISORDERS"
   - name: "FAMILY VIOLENCE"
