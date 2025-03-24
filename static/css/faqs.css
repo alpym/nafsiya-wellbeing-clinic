@@ -17,6 +17,10 @@ h2 {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    .faq-content {
+        padding: 12px;
+    }
+
     .faq-content h1 {
         font-size: 2em;
     }
@@ -42,3 +46,10 @@ h2 {
     color: #19164b; 
     text-decoration: none; 
   }
+
+  /* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #back-to-top {
+        display: none;
+    }
+}
