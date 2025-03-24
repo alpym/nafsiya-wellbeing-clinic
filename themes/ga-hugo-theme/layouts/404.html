@@ -2,6 +2,8 @@
 <html lang="{{ .Site.LanguageCode }}">
 
   <head>
+    <script src="/static/js/front.js"></script>
+
     {{ partial "headers.html" . }}
   </head>
 
@@ -13,20 +15,12 @@
 
         {{ partial "nav.html" . }}
 
-        <div id="content">
-            <div class="container">
+        {{ partial "breadcrumbs.html" . }}
 
-                <div class="col-sm-6 col-sm-offset-3" id="error-page">
 
-                    <div class="box">
-
-                        <h3>{{ i18n "404Message" | markdownify }}</h3>
-                        <h4 class="text-muted">{{ i18n "404Error" | markdownify }}</h4>
-
-                        <p class="buttons"><a href="{{ "/" | relURL }}" class="btn btn-template-main"><i class="fas fa-home"></i> {{ i18n "404NavHome" | markdownify }}</a>
-                        </p>
-                    </div>
-
+        <div class="error-page" id="error-page"> 
+          <a href="/" class="error-button">RETURN HOME </a>
+      </div>
 
                 </div>
                 <!-- /.col-sm-6 -->
