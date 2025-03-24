@@ -16,6 +16,8 @@ trading_hours:
     hours: "9am - 7pm"
   - day: "Friday"
     hours: "9am - 2pm"
+  - day: "Saturday"
+    hours: "Closed"
   - day: "Sunday"
     hours: "Closed"
 address_line1: "Milleara Medical Suites"
