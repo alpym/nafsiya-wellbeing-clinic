@@ -29,17 +29,16 @@ h2 {
 
 /* back to top button */
 #back-to-top {
-    position: fixed; /* Fixed position */
-    bottom: 20px; /* Distance from bottom */
-    right: 20px; /* Distance from right */
-    display: none; /* Hidden by default */
-    background-color: #efe0ed; /* Light gray-blue background */
-    padding: 10px 20px; /* Padding */
-    border-radius: 5px; /* Rounded corners */
+    position: fixed; 
+    bottom: 20px; 
+    right: 100px; /* Distance from right */
+    background-color: #d5e1e9; 
+    font-weight: 500;
+    padding: 10px 20px; 
+    border-radius: 5px; 
   }
   
   #back-to-top a {
-    color: #282c69; /* Dark blue text color */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Bold text */
+    color: #19164b; 
+    text-decoration: none; 
   }

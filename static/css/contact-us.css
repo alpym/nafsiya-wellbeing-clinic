@@ -11,15 +11,16 @@
       text-align: left;
       margin-bottom: 30px;
       color: #21215c;
-      font-weight: 500;
+      font-size:  30px;
+      font-weight: 600;
     }
 
     .form-intro {
       text-align: left;
-      margin-bottom: 30px;
+      margin-bottom: 34px;
       color: #19154b;
       font-weight: 500;
-      column-count: 2;
+      font-size: 20px;
     }
   
     .contact-details {
