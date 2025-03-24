@@ -22,10 +22,10 @@
   .condition-item, .therapy-item {
     background-color: #19154b;
     color: white;
-    width: 300px;
-    padding: 10px 15px;
+    width: 350px;
+    padding: 20px 15px;
     border-radius: 5px;
-    text-align: left;
+    text-align: center;
     align-content: center;
     justify-content: space-between;
     display: flex; 
