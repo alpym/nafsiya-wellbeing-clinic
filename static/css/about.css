@@ -33,21 +33,18 @@
   
   /* Mobile Responsiveness */
   @media (max-width: 768px) {
-    .text-column,
-    .image-column {
-      flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
-      flex: 1 1 100%; /* Take up full width on mobile */
-      padding-right: 0; /* Remove padding on mobile */
+
+    .two-column-container {
+      display: grid;
     }
-  
+    
     .text-column {
-      order: 2; /* Place text below image on mobile */
+      padding: 12px;
     }
-  
-    .image-column {
-      order: 1; /* Place image above text on mobile */
-      margin-bottom: 20px; /* Add space between image and text */
+    .image-column img {
+      display: none;
     }
-  }
+    }
+
   
   
