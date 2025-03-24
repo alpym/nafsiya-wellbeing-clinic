@@ -19,7 +19,7 @@
   }
   
   .image-column img {
-    max-width: 100%; /* Make the image responsive */
+    max-width: 90%; /* Make the image responsive */
     height: auto;
   }
 
