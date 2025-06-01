@@ -57,6 +57,9 @@
           .box-content {
               text-align: left;
               row-gap: 10px;
+              display: flex;
+              flex-direction: column;
+              height: 100%;
 
 
               .button {
@@ -67,19 +70,15 @@
                   border-radius: 5px;
                   text-decoration: none;
                   color: white;
-                  margin-top: 20px;
+                  margin-top: auto;
                   text-align: center;
 
                   &.left-button {
                       background-color: #ad63a9;
-                      text-align: center;
-
                   }
 
                   &.right-button {
                       background-color: #41ad3f;
-                      text-align: center;
-
                   }
               }
           }
