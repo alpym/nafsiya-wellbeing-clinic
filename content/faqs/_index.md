@@ -1,6 +1,6 @@
 ---
-title: "Faqs"
-type: faqs
+title: "FAQS"
+type: FAQS
 meta_title: "Faqs"
 description: "Frequently asked questions to help provide clarity"
 draft: false
