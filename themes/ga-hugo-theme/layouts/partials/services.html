@@ -38,14 +38,30 @@
         <h2>We incorporate a variety of evidence-based therapies to ensure our clients receive the highest quality care.</h2>
         <div class="therapy-list">
           {{ range .Page.Params.therapies }}
-          <div class="therapy-item">
+          {{ $modalId := printf "modal-therapy-%s" (.name | urlize) }}
+          <div class="therapy-item" data-modal-id="{{ $modalId }}" style="cursor: pointer;">
             {{ .name }} <span class="plus-icon">+</span>
           </div>
           {{ end }}
-          <div class="therapy-item and-more">
-            AND MORE <span class="plus-icon">+</span>
-          </div>
         </div>
       </div>
+
+      <!-- Therapy Modals -->
+      {{ range .Page.Params.therapies }}
+      {{ $modalId := printf "modal-therapy-%s" (.name | urlize) }}
+      <div id="{{ $modalId }}" class="modal">
+        <div class="modal-content">
+          <span class="close-button" data-modal-id="{{ $modalId }}">&times;</span>
+          <h2>{{ .name }}</h2>
+          {{ if .description }}
+          <div class="modal-description">
+            {{ .description | markdownify }}
+          </div>
+          {{ else }}
+          <p>Our experienced team provides specialized support and treatment using {{ .name | lower }}. We use evidence-based approaches to help you achieve your therapeutic goals.</p>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
     </div>
   </section>
