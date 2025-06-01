@@ -33,6 +33,7 @@
     font-size: 14px;
 
     .plus-icon {
+      flex: 0 0 16px;
       margin-left: 10px;
       background-color: #d5e1e9;
       color: #19154b; 
@@ -43,6 +44,12 @@
       height: 16px; 
       border-radius: 50%; 
       border: 1px solid #d5e1e9; 
+    }
+
+    > span {
+      flex: 1;
+      min-width: 0;
+      word-wrap: break-word;
     }
   }
 
