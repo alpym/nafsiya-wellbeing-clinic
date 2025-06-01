@@ -30,7 +30,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const conditionItems = document.querySelectorAll('.condition-item');
     conditionItems.forEach(item => {
         const modalId = item.getAttribute('data-modal-id');
-        console.log('Adding click handler to:', modalId);
+        console.log('Adding click handler to condition:', modalId);
+        item.addEventListener('click', function() {
+            openModal(modalId);
+        });
+    });
+
+    // Add click handlers to all therapy items
+    const therapyItems = document.querySelectorAll('.therapy-item');
+    therapyItems.forEach(item => {
+        const modalId = item.getAttribute('data-modal-id');
+        console.log('Adding click handler to therapy:', modalId);
         item.addEventListener('click', function() {
             openModal(modalId);
         });
