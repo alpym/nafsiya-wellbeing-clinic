@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  <head>
+<head>
     {{ partial "headers.html" . }}
-    <script src="/static/js/front.js"></script>
+    <link href="{{ "css/buttons.css" | relURL }}" rel="stylesheet">
+    <link href="{{ "css/modal.css" | relURL }}" rel="stylesheet">
+    <script src="{{ "js/front.js" | relURL }}"></script>
+</head>
 
-  </head>
-
-  <body>
-
+<body>
     <div id="all">
-
         {{ partial "top.html" . }}
-
         {{ partial "nav.html" . }}
-
         {{ partial "breadcrumbs.html" . }}
-
         {{ partial "services.html" . }}
-
         {{ partial "footer.html" . }}
-
     </div>
-    <!-- /#all -->
 
     {{ partial "scripts.html" . }}
+    <script src="{{ "js/modal.js" | relURL }}"></script>
+    <script>
+        console.log('Modal script loaded');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded');
+            const conditionItems = document.querySelectorAll('.condition-item');
+            console.log('Found condition items:', conditionItems.length);
+        });
+    </script>
+</body>
 
-  </body>
-  
- <!--<button id="ptsd-button">Learn More About PTSD</button>-->
 </html>
