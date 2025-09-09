@@ -10,8 +10,8 @@ media_folder: "static/img" # Folder where uploaded media will be stored
 public_folder: "/img" # Path in the URL structure
 
 # Site configuration
-site_url: https://nafsiya.netlify.app
-display_url: https://nafsiya.netlify.app
+site_url: https://nafsiya.com.au
+display_url: https://nafsiya.com.au
 logo_url: https://nafsiya.netlify.app/img/Nafsiya-Wellbeing-Clinic-Logo-colour.svg
 
 collections:
