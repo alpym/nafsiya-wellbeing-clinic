@@ -1,4 +1,4 @@
-baseURL = 'https://nafsiya.com.au/
+baseURL = 'https://nafsiya.netlify.app/'
 languageCode = 'en-us'
 title = 'Nafsiya wellbeing Clinic'
 theme = "ga-hugo-theme"
